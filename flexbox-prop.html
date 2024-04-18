@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox property</title>
+</head>
+<body>
+    <style>
+        section{
+            display: flex;
+            /* gap: 50px; */
+            /* flex-direction: row;
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            align-items: baseline;
+            border: 2px solid;
+            height: 10vh;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(176, 176, 240);
+        }
+        .div1{
+            font-size: 10px;
+        }
+       
+        .div3{
+            font-size: 5px;
+        }
+        .div1{
+            order: 1;
+            
+        }
+        .div3{
+            order: 2;
+            flex-grow: 1;
+        }
+        .div5{
+            order: 3;
+            flex-shrink: 2;
+            
+        }
+        .div2{
+            order: 4;
+        }
+    </style>
+    <section>
+       <div class="div">div1</div>
+       <div class="div">div2</div>
+       <div class="div">div3</div>
+       <div class="div">div4</div>
+       <div class="div">div5</div>
+       <div class="div">div6</div> 
+    </section>
+</body>
+</html>

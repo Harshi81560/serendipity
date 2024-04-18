@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+   meta data is the data which provides the info redarding the data to the developer and browser
+    <meta charset="UTF-8"> unicode trasform format - 8
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+  </html>
+  
+  
+  
+  
+  
+  <html>
+    <head>
+<title>css</title>
+    </head>
+    <body>
+        <style>
+            h1
+              .selector{  border: 2px solid blue
+                padding : 2px;
+        
+                .selector {
+  padding: top right bottom left;
+}
+
+        
+        
+        
+        }
+               
+              
+        </style>
+        
+
+    </body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+    <table>
+
+  <tr>
+     <th>s no </th>
+  <th>name</th>
+  <th>course</th>
+
+  
+  
+  
+  
+  </tr>
+  <td>1</td>
+  <td>xxx</td>
+  <td>pqy</td>
+
+    </table>
+  </style>
+  </body>
+  </html>
